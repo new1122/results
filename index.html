@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Result@IHMA</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
 </head>
 <body>
    
-  
-  <div class="header">
+ 
+  <div class="header1">
       <img src="ihmalogo.png" alt="" class="image1">
       <div class="head">
         INSTITUTE OF HOTEL MANAGEMENT - AHMEDABAD
@@ -18,184 +18,66 @@
         &nbsp;&nbsp;(Established by Ministry of Tourism, Government of India)
       </div>
       <img src="azadi.png" alt="" class="image2">
-    </div>  
-   
-   
-   
-    <marquee class="cong">Welcome to the IHM Ahmedabad Result Portal !!!</marquee>
-    
-   
-   
-    <div class="new">
-      <div class="newhead">What's New?</div>
-        <marquee class="marq" scrollamount="2" direction="UP"> &nbsp;&nbsp;1st Semester Result 2021-22  <br> <br>&nbsp;&nbsp; 2nd semester Result 2021-22</marquee>
-      </div>  
-    
-    
-   
-   
-   
-   
-   
-      <div class="main">
-      <div class="mainhead">Result Portal</div>
-
-
-      <div class="data">
-      NCHMCT Roll No : <input type="text" id="name-box" style="background-color: rgb(160, 247, 221); height: 20px; width: 270px; font-size: 12px; border-radius: 10px;" placeholder="Enter Your NCHMCT Roll No.(i.e.XX41106XXX)"  >
-      <br><br>
-      <input type="Submit" id="smt-btn" style=" height: 20px; width: 72px; background-color: rgb(0, 65, 245); color: rgb(26, 245, 55); margin-left: 150px;
-      border-radius: 6px;">
+  </div>  
+    <div class="navigat">
+ <div class="navi"  id="brand">IHM AHMEDABAD</div>
+     <nav>
+       <ul>
+        <li><a href="http://ihmahmedabad.com/">Home</a></li>
+        <li><a href="/">Fees</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/login" >staff</a></li>
+        <li><a href="/signup">contact us</a></li>
+       </ul>
+     </nav>
+     <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Fees</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="" >staff</a></li>
+        <li><a href="">contact us</a></li>
+      </ul>
     </div>
-  <header>
-    <div class="main-container">  
-     </div>
- <br>   
- <br>
- <div class="heading">
-     <!-- <h1>Your Result</h1> -->
-     <!-- <div class="result" id="res"></div>-->
-     
-     <table style="border-radius: 20px;"  >
-       <tr>
-       <td>Name : </td>
-       <td id="nameofstudent"></td>
-      </tr>
-      <tr>
-        <td>Email ID : </td>
-        <td id="emailofstudent"></td>
-       </tr>
-       <tr>
-        <td>Mobile No : </td>
-        <td id="mobileofstudent"></td>
-       </tr>
-     </table>
-     
-     <table style="border-radius: 20px;">
-        <tr>
-          <th>Sr. No.</th>
-          <th>Subject Name</th>
-          <th>Total Marks</th>
-          <th>Marks Obtained</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>BHM 111 Theory</td>
-          <td>100</td>
-          <td id="BHMFPPTH"></td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>BHM 111 Practical</td>
-          <td>100</td>
-          <td id="BHMFPPPR"></td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>BHM 112 Practical</td>
-            <td>100</td>
-            <td id="BHMFBSTH"></td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>BHM 112 Practical</td>
-            <td>100</td>
-            <td id="BHMFBSPR"></td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>BHM 113 Theory</td>
-            <td>100</td>
-            <td id="BHMFOTH"></td>
-          </tr>  
-           <tr>
-            <td>6</td>
-            <td>BHM 113 Practical</td>
-            <td>100</td>
-            <td id="BHMFOPR"></td>
-          </tr>
-             <tr>
-            <td>7</td>
-            <td>BHM 114 Theory</td>
-            <td>100</td>
-            <td id="BHMAOTH"></td>
-          </tr> 
-            <tr>
-            <td>8</td>
-            <td>BHM 114 Practical</td>
-            <td>100</td>
-            <td id="BHMAOPR"></td>
-          </tr> 
-            <tr>
-            <td>9</td>
-            <td>BHM 105 AOC Theory</td>
-            <td>100</td>
-            <td id="BHMAOCTH"></td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>BHM 105 AOC Practical</td>
-            <td>100</td>
-            <td id="BHMAOCPR"></td>
-          </tr> 
-          <tr>
-            <td>11</td>
-            <td>BHM 106</td>
-            <td>100</td>
-            <td id="BHMHE"></td>
-          </tr> 
-            <tr>
-            <td>12</td>
-            <td>BHM 116</td>
-            <td>100</td>
-            <td id="BHMNUT"></td>
-          </tr> 
-            <tr>
-            <td>13</td>
-            <td>GRAND TOTAL</td>
-            <td>1150</td>
-            <td id="TOTALS"></td>
-          </tr>
-          <tr>
-            <td>14</td>
-            <td>RESULT</td>
-            <td>100</td>
-            <td id="REMARKS"></td>
-          </tr> 
-           
-      </table>
-     <!-- <table>
-            <tr>
-                <td>BHM 111 th.</td>
-                <td id="BHMFPPTH"></td>
-            </tr>
-            <tr>
-                <td>BHM 111 pr.</td>
-                <td id="BHMFPPPR"></td>
-            </tr>
-            <tr>
-                <td>BHM 112 th.</td>
-                <td id="BHMFBSTH"></td>
-            </tr>
-            <tr>
-                <td>BHM 112 pr.</td>
-                <td id="BHMFBSPR"></td>
-            </tr>
-     </table>
- </div> -->
+  </div>
+  <marquee class="cong">Welcome to the IHM Ahmedabad Result Portal !!!</marquee>    
  
-</header>
 
+  <div class="new">
+    <div class="newhead">What's New?</div>
+      <marquee class="marq" scrollamount="2" direction="UP"> &nbsp;&nbsp;1st Semester Result 2021-22  <br> <br>&nbsp;&nbsp; 2nd semester Result 2021-22</marquee>
+ </div> 
+<div class="container" style="margin-top: 10px;">
+<pre style="font-family: Arial, Helvetica, sans-serif;">Year 2021-22</pre>
+    <div class="box"><a href="home.html" style="color: coral; text-decoration: none;"> Semester 1</a></div>
+    <div class="box"><a href="" style="color: coral; text-decoration: none;"> Semester 2</a></div>
+    <div class="box"><a href="3rdsem202122" style="color: coral; text-decoration: none;">Semester 3</a></div>
+    <div class="box"><a href="" style="color: coral; text-decoration: none;">Semester 4</a></div>
+    <div class="box"><a href="5thsem202122.xlsx" style="color: coral; text-decoration: none;">Semester 5</a></div>
+    <div class="box">Semester 6</div>
+
+</div>
+<div class="container" style="margin-top: 10px;">
+    <pre style="font-family: Arial, Helvetica, sans-serif;">Year 2020-21</pre>
+        <div class="box" >Semester 1</div>
+        <div class="box">Semester 2</div>
+        <div class="box">Semester 3</div>
+        <div class="box">Semester 4</div>
+        <div class="box">Semester 5</div>
+        <div class="box">Semester 6</div>
+    
     </div>
 
-
-    <footer>
-      <div class="names">
-      <a href="http://ihmahmedabad.com/" style="text-decoration: none; color: black;">  IHMA Home </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;  <a href="https://ihmafees.in/"  style="text-decoration: none; color: black;">IHMA FEES</a>
-      </div>
-      <div class="tag">all rights reserves &#169;</div>      
-    </footer> 
+  <footer>
+    <div class="names">
+    <a href="http://ihmahmedabad.com/" style="text-decoration: none; color: black;" id="foot">  IHMA Home </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;  <a href="https://ihmafees.in/" class="namee"  style="text-decoration: none; color: black;">IHMA FEES</a>
+    </div>
+    <div class="tag">&nbsp; &#169;Institute of Hotel Management Ahmedabad. All rights reserved</div>  
+    <div class="righttag">Designed, Developed and Maitained by Abhishek Acharya.</div>
+  </footer> 
   </body>
-  <script src="server.js"></script>
-</html>
+  </html>

@@ -5857,3 +5857,6 @@ smBtn.addEventListener("click", function() {
     }
     results.innerHTML ="<h3>" +"No data" +"</h3>" 
 }) 
+function toggleMobileMenu(menu) {
+  menu.classList.toggle('open');
+}
