@@ -125,7 +125,15 @@ td{
   height: 30px;
   width: 100px;
 }
-
+#smt-btn{
+  background-color: rgb(29, 29, 250);
+  margin-top: 12px;
+  margin-left: 160px;
+  border-radius: 20px;
+  color: azure;
+  height: 30px;
+  width: 100px; 
+}
 .cong{
   height: 25px;
 }
@@ -371,6 +379,7 @@ button{
   display: flex;
   border-radius: 5px;
 }
+
 .new{
   position:relative;
   display:contents;
