@@ -255,15 +255,16 @@ ul li:hover {
   font-size: 9px;
   display: flex;
   padding: 5px;
+  height: 70px;
   align-items: center;
   justify-content: center;
 }
 .image1{
-  height: 50px;
+  height: 60px;
   margin-right: 10px;
 }
 .image2{
-  height: 38px;
+  height: 43px;
   margin-left: 5px;
 }
   pre{
@@ -304,7 +305,7 @@ ul li:hover {
   .box{
     border-radius: 50px;
     width: 90px;
-    margin-left: 60px;
+    margin-left: 50px;
     background-color: rgb(25, 93, 180); 
     box-sizing: border-box;
     color: coral;
