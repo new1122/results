@@ -5773,7 +5773,7 @@ const data = [
           BHM106HE: "55",
           BHM116NUT: "52",
           TOTAL: "719",
-          RESULT: " PASS",
+          RESULT: " PASS"
   
         },
 
