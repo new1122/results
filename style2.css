@@ -46,7 +46,6 @@ marquee{
 
 
 
-/* Navigation bar */
 #brand {
   font-weight: bold;
   font-size: 18px;
@@ -189,6 +188,7 @@ ul li:hover {
  
 .container{
     margin-left: 300px;
+    margin-right: 20px;
     width: auto;
     height: auto;
     background-color: rgb(181, 227, 235);
@@ -224,7 +224,27 @@ ul li:hover {
 .righttag{
   text-align: right;
   color:#9d0bff;
+  padding-bottom: 3px;
 }
+
+
+@media only screen and (max-width: 550px) {
+  .navigat nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+  ul a{
+    color: rgb(98, 0, 255);
+    background-color: #f34906;
+    font-size: 20px;
+    display: flex;
+  }
+}
+
+
 
 
 @media only screen and (max-width: 750px) {
@@ -245,14 +265,24 @@ ul li:hover {
 
 
 
-
-
 @media screen and (max-width:750px){
   html,
   body {
     margin: 0;
   }
- 
+  .navigat nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+  ul a{
+    color: rgb(98, 0, 255);
+    background-color: #f34906;
+    font-size: 20px;
+    display: flex;
+  }
 .header1{
   background-color: #0ecfb6;
   font-size: 9px;
@@ -293,6 +323,7 @@ ul li:hover {
 }
   .container{
     margin-left: 0px;
+    margin-right: 0px;
     width:48%;
     height: auto;
     background-color: rgb(181, 227, 235);
