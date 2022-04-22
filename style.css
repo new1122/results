@@ -240,61 +240,6 @@ ul li:hover {
 
 
 
-@media print{
-  .header1{
-    background-color: brown;
-    margin-bottom: -200px;
-  }
-  .new{
-    visibility: hidden;
-  }
-  .main{
-    margin-left: -40px;
-    margin-top: 55px;
-    border: none;
-  }
-  .mainhead{
-    visibility: hidden;
-  }
-    
-.table1{
-  margin-top: 0px;
-  width: max-content;
-}
-.heading{
-  margin-top: -29px;
-}
-  th,
-  td{
-    margin-top: 0px;
-    width: max-content;
-  }
-  #smt-btn{
-    visibility: hidden;
-  }
-  .header1{
-    font-size: 14px;
-  }
-  footer{
-    visibility: hidden;
-  }
-  .cong{
-    visibility: hidden;
-  }
-  .image1{
-    height: 65px;
-  }
-  .image2{
-    height: 64px;
-  }
-  .printpage{
-    visibility: hidden;
-  }
-  .navigat{
-    visibility: hidden;
-  }
-}
-
 
 
 
@@ -428,4 +373,71 @@ footer{
 .righttag{ 
     visibility: hidden;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print{
+  .header1{
+    background-color: brown;
+    margin-bottom: -200px;
+  }
+  .new{
+    visibility: hidden;
+  }
+  .main{
+    margin-left: -40px;
+    margin-top: 55px;
+    border: none;
+  }
+  .mainhead{
+    visibility: hidden;
+  }
+    
+.table1{
+  margin-top: 0px;
+  width: max-content;
+}
+.heading{
+  margin-top: -29px;
+}
+  th,
+  td{
+    margin-top: 0px;
+    width: max-content;
+  }
+  #smt-btn{
+    visibility: hidden;
+  }
+  .header1{
+    font-size: 14px;
+  }
+  footer{
+    visibility: hidden;
+  }
+  .cong{
+    visibility: hidden;
+  }
+  .image1{
+    height: 65px;
+  }
+  .image2{
+    height: 64px;
+  }
+  .printpage{
+    visibility: hidden;
+  }
+  .navigat{
+    visibility: hidden;
+  }
 }

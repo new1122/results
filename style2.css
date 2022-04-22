@@ -7,46 +7,6 @@ marquee{
   background-color: #013d5f;
   color: bisque;
 }
-
-
-
-/* ******************************Drop Down*********************************************** */
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-/* ********************************************************************************* */
 .header1  {
   background-color: #0ecfb6;
   font-size: 20px;
@@ -63,8 +23,27 @@ marquee{
   height: 108px;
   margin-left: 180px;
 }
+.newhead{
+  background-color: #0ecfb6;
+  text-align: center;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px; 
+  height: 25px;
+  padding-top: 5px;
+  font-size: 16px;
+  color: crimson;
+}
 
-.main{
+.new{
+  position:absolute;
+  border: 1px solid black;
+  height: 250px;
+  width: 250px;
+  margin-top: 23px;
+  margin-left: 9px;
+  border-radius: 9px;
+}  
+/* .main{
   height: fit-content;
   border: 1px solid black;
   display:inline-block;
@@ -77,7 +56,7 @@ marquee{
   position: relative;
   min-height: 100vh;
   margin-bottom: 70px;
-}
+} */
 .marq{
   background-color: aliceblue;
   color: blue;
@@ -86,6 +65,71 @@ marquee{
 
 
 
+  /* ****************** */
+
+  .cong{
+    height: 25px;
+  }
+ 
+
+  footer{
+    background-color:#0ecfb6;
+    margin-top: 15px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+  
+ 
+  .names{
+    text-align: center;
+  }
+
+
+  /* ************************************************************* */
+ 
+.container{
+    margin-left: 300px;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+    background-color: rgb(181, 227, 235);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+    padding: 3px;
+    text-align: center;
+
+}
+
+.box{
+    border-radius: 100px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(25, 93, 180);
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: coral;
+    text-align: center;
+    flex-flow: wrap;
+    padding-top: 40px;
+   }
+
+
+/* ****************Footer************** */
+.tag{
+  text-align: left;
+  margin-bottom: -15px;  
+  color:#9d0bff;
+}
+.righttag{
+  text-align: right;
+  color:#9d0bff;
+  padding-bottom: 3px;
+}
+
+/* Navigation bar */
 #brand {
   font-weight: bold;
   font-size: 18px;
@@ -180,109 +224,7 @@ ul li:hover {
 }
 
 
-  /* ****************** */
 
-  .cong{
-    height: 25px;
-  }
-  .newhead{
-    background-color: #0ecfb6;
-    text-align: center;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px; 
-    height: 25px;
-    padding-top: 5px;
-    font-size: 16px;
-    color: crimson;
-  }
-  .marq{
-    background-color: aliceblue;
-    color: blue;
-    height: 215px;
-  }
-  .new{
-    position:absolute;
-    border: 1px solid black;
-    height: 250px;
-    width: 250px;
-    margin-top: 23px;
-    margin-left: 9px;
-    border-radius: 9px;
-  }  
-
-  footer{
-    background-color:#0ecfb6;
-    margin-top: 15px;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-  }
-  
- 
-  .names{
-    text-align: center;
-  }
-
-
-  /* ************************************************************* */
- 
-.container{
-    margin-left: 300px;
-    margin-right: 20px;
-    width: auto;
-    height: auto;
-    background-color: rgb(181, 227, 235);
-    display: flex;
-    justify-content: space-around;
-    border-radius: 25px;
-    padding: 3px;
-    text-align: center;
-
-}
-
-.box{
-    border-radius: 100px;
-    width: 200px;
-    height: 100px;
-    background-color: rgb(25, 93, 180);
-    margin: 20px;
-    box-sizing: border-box;
-    font-size: 18px;
-    color: coral;
-    text-align: center;
-    flex-flow: wrap;
-    padding-top: 40px;
-   }
-
-
-/* ****************Footer************** */
-.tag{
-  text-align: left;
-  margin-bottom: -15px;  
-  color:#9d0bff;
-}
-.righttag{
-  text-align: right;
-  color:#9d0bff;
-  padding-bottom: 3px;
-}
-
-
-@media only screen and (max-width: 550px) {
-  .navigat nav {
-    display: none;
-  }
-
-  #hamburger-icon {
-    display: block;
-  }
-  ul a{
-    color: rgb(98, 0, 255);
-    background-color: #f34906;
-    font-size: 20px;
-    display: flex;
-  }
-}
 
 
 
@@ -300,8 +242,9 @@ ul li:hover {
     background-color: #f34906;
     font-size: 20px;
     display: flex;
-  }
+  } 
 }
+
 
 
 
@@ -310,19 +253,7 @@ ul li:hover {
   body {
     margin: 0;
   }
-  .navigat nav {
-    display: none;
-  }
 
-  #hamburger-icon {
-    display: block;
-  }
-  ul a{
-    color: rgb(98, 0, 255);
-    background-color: #f34906;
-    font-size: 20px;
-    display: flex;
-  }
 .header1{
   background-color: #0ecfb6;
   font-size: 9px;
@@ -358,9 +289,7 @@ ul li:hover {
     display: flex;
     border-radius: 5px;
   }
-#brand{
-  font-size: 10px;
-}
+
   .container{
     margin-left: 0px;
     margin-right: 0px;
@@ -379,11 +308,13 @@ ul li:hover {
   .box{
     border-radius: 50px;
     width: 90px;
-    margin-left: 50px;
+    margin-left: 60px;
     background-color: rgb(25, 93, 180); 
     box-sizing: border-box;
     color: coral;
+    text-decoration: none;
   }
+ 
     /* border-radius: 40px;
     width: 70px;
     text-align: center;
