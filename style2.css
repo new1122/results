@@ -343,7 +343,9 @@ ul li:hover {
     background-color: rgb(25, 93, 180); 
     box-sizing: border-box;
     color: coral;
+    text-decoration: none;
   }
+ 
     /* border-radius: 40px;
     width: 70px;
     text-align: center;
