@@ -447,16 +447,34 @@ footer{
 
 @media print{
   .header1{
-    background-color: brown;
-    margin-bottom: -200px;
+    visibility: hidden;
+  }
+  .image1{
+    visibility: visible;
+    margin-left: -100px;
+  }
+  .head{
+    visibility: visible;
+    position:absolute;
+    font-size: 20px;
   }
   .new{
     visibility: hidden;
   }
+  .data{
+      margin-left: 290px;
+      margin-right: -200px;
+  }
   .main{
     margin-left: -40px;
-    margin-top: 55px;
+    margin-top: -120px;
     border: none;
+  }
+  .sem{
+    position: relative;
+    margin-right: -150px;
+    margin-left: 50px;
+    font-size: 19px;
   }
   .mainhead{
     visibility: hidden;
@@ -464,8 +482,8 @@ footer{
     
 .table1{
   margin-top: 0px;
-  margin-left: 200px;
-  width: max-content;
+  margin-left: 150px;
+  width:600px;
 }
 .heading{
   margin-top: -29px;
