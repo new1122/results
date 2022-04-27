@@ -239,7 +239,7 @@ ul li:hover {
 }
 .sem{
   font-size: 18px; 
-  text-align: center; 
+  margin-left: 140px;
   color: blue;
 }
 .abcc{
@@ -406,7 +406,7 @@ footer{
 }
 .sem{
   font-size: 18px; 
-  text-align: center; 
+  margin-left: 95px;
   color: blue;
 }
 .abcc{
@@ -423,12 +423,12 @@ footer{
 .nchmcc{
   font-size: 13.6px;
 }
-.submits{
+#smt-btn{
   background-color: rgb(51, 51, 255); 
   color: azure; 
   border-radius: 25px; 
   width: 135px; 
-  margin-left: 95px; 
+  margin-left: 110px; 
   height: 27px;
 }
 }
