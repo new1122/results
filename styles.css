@@ -40,7 +40,7 @@ marquee{
 .marq{
   background-color: rgb(250, 252, 229);
   color: blue;
-  height: 215px;
+  height: 325px;
   
 }
 .mainhead{
@@ -56,7 +56,7 @@ marquee{
 .new{
   position:absolute;
   border: 1px solid black;
-  height: 250px;
+  height: 360px;
   width: 250px;
   margin-top: 23px;
   margin-left: 9px;
@@ -91,6 +91,7 @@ footer{
   bottom: 0;
   position: fixed;
   width: 100%;
+  
 }
 
 .tag{
@@ -458,7 +459,7 @@ font-size: 12px;
 }
 footer{
   height: 28px;
-  bottom: 0px;
+  bottom: 10px;
   font-size: 11px;
 
 }
@@ -480,7 +481,7 @@ footer{
 }
 table{
   border: 1px solid black;
-  margin-left: 10px;
+  margin-left: 0px;
   width: 100%;
   margin-top: 20px;
   font-size: 16px;
@@ -491,7 +492,7 @@ table{
 }
 .table1{
   border: 1px solid black;
-  margin-left: 10px;
+  margin-left: 0px;
   width: 100%;
   padding: 0  px;
   background-color: antiquewhite;
@@ -542,5 +543,11 @@ table{
 }
 .new1{
   visibility: hidden;
+}
+.namee{
+  margin-left:  5px;
+}
+#foot{
+  margin-left: -160px;
 }
 }
