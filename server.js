@@ -5819,6 +5819,7 @@ const remark = document.getElementById('REMARKS')
 const nameof = document.getElementById('nameofstudent')
 const emailof = document.getElementById('emailofstudent')
 const mobile = document.getElementById('mobileofstudent')
+const dataaa = document.getElementById('dataa')
 
 const smBtn = document.getElementById('smt-btn')
 smBtn.addEventListener("click", function() {
@@ -5855,7 +5856,7 @@ smBtn.addEventListener("click", function() {
             return;
         }
     }
-    results.innerHTML ="<h3>" +"No data" +"</h3>" 
+    dataaa.innerHTML ="<h3>" +"No data" +"</h3>" 
 }) 
 function toggleMobileMenu(menu) {
   menu.classList.toggle('open');
