@@ -5532,7 +5532,6 @@ const data = [
 // const results = document.getElementById('res')
 const names = document.getElementById('nameofstudent')
 const ignou = document.getElementById('ignou')
-const nchm = document.getElementById('nnchm')
 const mobile = document.getElementById('mobileofstudent')
 const email = document.getElementById('emailofstudent')
 const bhm201th = document.getElementById('BHM201TH')
@@ -5571,7 +5570,6 @@ smBtn.addEventListener("click", function() {
           bhm203th.innerHTML = data[i].BHM203TH
           bhm203pr.innerHTML = data[i].BHM203PR
           bhm204th.innerHTML = data[i].BHM204TH
-          nchm.innerHTML = data[i].nnchm
           bhm204pr.innerHTML = data[i].BHM204PR
           bhm205.innerHTML = data[i].BHM205
           bhm206.innerHTML = data[i].BHM206
