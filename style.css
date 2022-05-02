@@ -53,7 +53,8 @@ marquee{
   height: 30px;
   width: 105.2%;
   padding-top: 8px;
-  font-size: 16px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
   color: crimson;
 }
 .new{
