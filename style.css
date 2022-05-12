@@ -247,6 +247,11 @@ ul li:hover {
   margin-left: 120px;
   color: blue;
 }
+.sem2{
+  font-size: 18px; 
+  margin-left: 90px;
+  color: blue;
+}
 .abcc{
   font-size: 14px; 
   text-align: left;
@@ -414,6 +419,11 @@ footer{
   margin-left: 50px;
   color: blue;
 }
+.sem2{
+  font-size: 14px; 
+  margin-left: 30px;
+  color: blue;
+}
 .abcc{
   font-size: 10px; 
   text-align: left;
@@ -483,6 +493,12 @@ footer{
     position: relative;
     margin-right: -150px;
     margin-left: 50px;
+    font-size: 19px;
+  }
+  .sem2{
+    position: relative;
+    margin-right: -150px;
+    margin-left: 0px;
     font-size: 19px;
   }
   .mainhead{
