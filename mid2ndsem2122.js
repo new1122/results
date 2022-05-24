@@ -2296,7 +2296,7 @@ const data = [
               fpp151bhm : "27",
               fo153bhm : "28",
               fnb152bhm : "26",
-              acop154bhm : "24",
+              acop154bhm : "23",
               comm109bhm : "21",
               acco108bhm : " -",
               pofs117bhm : " -"
@@ -2387,7 +2387,7 @@ const data = [
               fpp151bhm : "25",
               fo153bhm : "18",
               fnb152bhm : "15",
-              acop154bhm : "10",
+              acop154bhm : "9",
               comm109bhm : "11",
               acco108bhm : " -",
               pofs117bhm : " -"
@@ -2465,7 +2465,7 @@ const data = [
               fpp151bhm : "42",
               fo153bhm : "44",
               fnb152bhm : "45",
-              acop154bhm : "35",
+              acop154bhm : "34",
               comm109bhm : "24",
               acco108bhm : " -",
               pofs117bhm : " -"
@@ -2673,7 +2673,7 @@ const data = [
               fpp151bhm : "49",
               fo153bhm : "33",
               fnb152bhm : "38",
-              acop154bhm : "31",
+              acop154bhm : "27",
               comm109bhm : "24",
               acco108bhm : " -",
               pofs117bhm : " -"
@@ -2790,7 +2790,7 @@ const data = [
               fpp151bhm : "23",
               fo153bhm : "25",
               fnb152bhm : "19",
-              acop154bhm : "14",
+              acop154bhm : "13",
               comm109bhm : "13",
               acco108bhm : " -",
               pofs117bhm : " -"
