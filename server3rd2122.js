@@ -5507,6 +5507,7 @@ const data = [
         NAME: "YUVRAJ SINGH",
         name: "2041106292",
         IGNOU: "202628570",
+        nnchm: "2041106292",
         MOB: "9983318056",
         EMAIL: "yschouhan3131@gmail.com",
         BHM201TH: "75",
